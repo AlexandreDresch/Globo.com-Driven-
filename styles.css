@@ -1,0 +1,448 @@
+/*
+    COMEÇO DO RESET CSS
+*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a {
+    text-decoration: none;
+}
+
+/*
+    FINAL DO RESET CSS
+*/
+
+body {
+    background-color: #FFFFFF;
+    width: 100%;
+    font-family: "Encode Sans"    
+}
+
+.logo {
+    height: 79px;
+    background: url(./assets/logo.png) no-repeat center center;
+    border-bottom: 1px solid #F5F6F7;
+}
+
+.nav-bar {
+    border-bottom: 1px solid #F5F6F7;
+    height: 28px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-items {
+    width: 1250px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 24px;
+}
+
+.nav-item-1 {
+    color: #C3170C;
+}
+
+.nav-item-2 {
+    color: #1E4B9B;
+}
+
+.nav-item-3 {
+    color: #006766;
+}
+
+.nav-item-4 {
+    color: #07AA47;
+}
+
+.nav-item-5 {
+    color: #E3662B;
+}
+
+.nav-item-6 {
+    color: #FB0735;
+}
+
+.nav-item-7 {
+    color: #FF75BB;
+}
+
+.nav-item-8 {
+    color: #EC7D00;
+}
+
+.nav-item-9 {
+    color: #323333;
+}
+
+.nav-item-10 {
+    color: #A81D83;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+
+.container-news {
+    width: 1250px;
+    display: flex;
+    justify-content: space-between;    
+    margin-top: 34px;
+}
+
+.left-container {
+    padding-right: 50px;
+    border-right: 1px solid #EBEDEF;
+}
+
+.highlight-container {
+    border-bottom: 1px solid #EBEDEF;
+}
+
+.highlight-container h1 {
+    font-weight: bold;
+    font-size: 52px;
+    color: #C4160C;
+    margin-bottom: 29px;
+    margin-top: -10px;
+    line-height: 67px;
+}
+
+.highlight-container p {
+    font-size: 18px;
+    color: #303134;
+    margin-bottom: 7px;
+}
+
+.highlight-container p:last-child {
+    margin-bottom: 25px;
+}
+
+.left-news-container {
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-between;
+    border-bottom: 1px solid #EBEDEF;
+}
+
+.left-news {
+    padding-right: 15px;
+}
+
+.left-news:last-child {
+    padding-right: 0px;
+}
+
+.left-news img {
+    width: 193px;
+    height: 110px;
+    border-radius: 12px;
+}
+
+.left-news h3, .left-simplified-news h3 {
+    color: #C4170C;
+    font-size: 14px;
+    margin-top: 11px;
+    margin-bottom: 6px;
+}
+
+.left-news h1, .left-simplified-news h1 {
+    color: #2F3134;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.left-news p, .left-simplified-news p {
+    color: #2F3134;
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 36px;
+}
+
+.left-simplified-news-container {
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-between;
+}
+
+.right-container {
+    display: flex;
+}
+
+.right-first-column-news {
+    padding-left: 36px;
+    padding-right: 35px;
+    border-right: 1px solid #EBEDEF;
+}
+
+.right-second-column-news {
+    padding-left: 36px;
+}
+
+.right-news img {
+    width: 240px;
+    height: 128px;
+    border-radius: 12px;
+}
+
+.right-first-column-news .right-news h3 {
+    color: #16AE54;
+    font-size: 14px;
+    margin-top: 11px;
+    margin-bottom: 6px;
+}
+
+.right-second-column-news .right-news h3 {
+    color: #EC8006;
+    font-size: 14px;
+    margin-top: 11px;
+    margin-bottom: 6px;
+}
+
+.right-news h1 {
+    color: #2F3134;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.right-news h1:last-child {
+    margin-bottom: 50px;
+}
+
+.right-news p {
+    color: #2F3134;
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 36px;
+}
+
+.right-second-column-news .right-news p {
+    margin-bottom: 12px;
+}
+
+.right-second-column-news .right-news p:last-child {
+    margin-bottom: 36px;
+}
+
+/*
+    MOBILE
+*/
+
+@media (max-width: 425px) {
+    .logo {
+        height: 79px;
+        background: url(./assets/logo_mobile.png) no-repeat center center;
+    }
+
+    .nav-bar {        
+        height: 58px;        
+    }
+
+    .nav-items {
+        width: 100%;
+        justify-content: space-around;
+        align-items: center
+    }
+
+    .nav-item-5, .nav-item-6, .nav-item-7, .nav-item-8, .nav-item-9, .nav-item-10 {
+        display: none;
+    }
+
+    .container, .container-news {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .left-container {
+        margin-left: 15px;
+        margin-right: 15px;
+        padding-right: 0px;
+        border: none;
+    }
+
+    .highlight-container h1 {
+        font-size: 32px;
+        margin-bottom: 10px;        
+        line-height: 40px;
+    }
+
+    .highlight-container p {
+        font-size: 18px;
+        color: #CD150B;
+        margin-bottom: 20px;
+    }
+
+    .highlight-container p:last-child {
+        display: none;
+    }
+
+    .left-news-container, .left-simplified-news-container {
+        flex-direction: column;
+        margin-top: 0px;
+        justify-content: space-between;        
+    }
+
+    .left-news, .left-simplified-news {
+        display: flex;
+        padding-right: 0px;
+        margin-top: 20px;
+        flex-direction: column;
+        border-bottom: 1px solid #EBEDEF;
+    }
+
+    .left-news img, .right-news img  {
+        width: 120px;
+        height: 67.37px;
+        border-radius: 2.82px
+    }
+
+    .mobile {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .mobile h3, br {
+        display: none;
+    }
+
+    .left-simplified-news h3 {
+        display: none;
+    }
+
+    .left-news h1 {
+        color: #CD150B;
+        font-size: 18px;
+        margin-left: 13px;
+        margin-bottom: 20px;
+    }
+
+    .left-news p, .left-simplified-news p {
+        color: #CD150B;
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .left-simplified-news h1 {
+        color: #CD150B;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .right-container {
+        flex-direction: column;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
+    .right-first-column-news, .right-second-column-news {
+        padding-left: 0px;
+        padding-right: 0px;
+        border-right: none;        
+        margin-top: 20px;        
+    }
+
+    .right-news, .right-second-news {
+        display: flex;
+        padding-right: 0px;
+        margin-top: 20px;
+        flex-direction: column;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #EBEDEF; 
+    }
+
+    .right-news h1 {
+        color: #06AA48;
+        font-size: 18px;
+        margin-left: 13px;
+        margin-bottom: 20px;
+    }
+
+    .right-news p {
+        color: #06AA48;
+        font-size: 16px;
+        margin-bottom: 0px;
+    }
+
+    .right-news h1:last-child {
+        margin-bottom: 10px;
+    }
+
+    .right-second-column-news h1 {
+        color: #FF8203;
+        font-size: 18px;
+        margin-left: 13px;
+        margin-bottom: 0px;
+    }
+
+    .right-second-column-news p {
+        color: #FF8203;
+        font-size: 16px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .right-second-column-news .right-news p:last-child {
+        margin-bottom: 0px;
+    }
+
+    .last-item {
+        border: none;
+    }
+}   
+
+
